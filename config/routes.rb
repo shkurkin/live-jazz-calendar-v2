@@ -2,7 +2,7 @@ LiveJazzCalendarV2::Application.routes.draw do
 
   root to: 'events#index'
 
-  resources :events, only: [:index, :create]
+  resources :events, only: [:index, :create, :show]
 
 
   # The priority is based upon order of creation:

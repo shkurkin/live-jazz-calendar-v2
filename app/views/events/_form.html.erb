@@ -2,8 +2,8 @@
 
 <div class="form-group">
 
-  <%= f.label :event_name %>
-  <%= f.text_field :event_name, class: "form-control" %>
+  <%= f.label :name %>
+  <%= f.text_field :name, class: "form-control" %>
 
   <%= f.label :performers %>
   <%= f.text_field :performers, class: "form-control"  %>
@@ -15,7 +15,10 @@
   <%= f.text_area :address, rows: "2", class: "form-control"  %>
 
   <%= f.label :date %>
-  <%= f.text_field :date, class: "form-control datepicker" %>
+  <%= f.text_field :date, class: "form-control" %>
+
+  <%= f.label :time %>
+  <%= f.text_field :time, class: "form-control" %>
 
   <%= f.label :repeat_info %>
   <%= f.text_field :repeat_info, class: "form-control"  %>
