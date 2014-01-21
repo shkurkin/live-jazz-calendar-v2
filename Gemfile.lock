@@ -39,6 +39,8 @@ GEM
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.0.2)
+    faker (1.1.2)
+      i18n (~> 0.5)
     hike (1.2.3)
     i18n (0.6.9)
     journey (1.0.4)
@@ -112,6 +114,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   binding_of_caller
+  faker
   jquery-rails
   pg
   pry

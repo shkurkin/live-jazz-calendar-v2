@@ -12,6 +12,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'pry'
   gem 'sextant'
+  gem 'faker'
 end
 
 

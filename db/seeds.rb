@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+month = '01'
+
+10.times do
+  Event.create(name: Faker::Lorem.words(1).join, date: "2014-#{month}-#{rand(31) + 1}")
+endro
