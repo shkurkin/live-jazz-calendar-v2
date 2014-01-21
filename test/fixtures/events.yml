@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  event_name: 
+  performers: 
+  venue: 
+  address: 
+  date: 
+  repeat_info: 
+  cost: 
+  details: 
+  contact_phone: 
+  contact_email: 
+  password: 
+  password_confirmation: MyString
+
+two:
+  event_name: 
+  performers: 
+  venue: 
+  address: 
+  date: 
+  repeat_info: 
+  cost: 
+  details: 
+  contact_phone: 
+  contact_email: 
+  password: 
+  password_confirmation: MyString
