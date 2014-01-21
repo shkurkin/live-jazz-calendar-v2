@@ -10,5 +10,6 @@
  *
  *= require_self
  *= require bootstrap-datetimepicker.min
+ *= require jquery-timepicker.min
  *= require_tree .
  */
